@@ -1,0 +1,81 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  padding: 0 40px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(14, 92, 31);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+td,
+th {
+  font-size: 24px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to right, #4daf54, #3d8880);
+}
+
+.main {
+  background: linear-gradient(to right, #4daf54, #3d8880);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.group-information {
+  text-align: center;
+}
+
+.information {
+  position: relative;
+}
+
+.member-image {
+  width: 30%;
+  padding-top: -75%;
+  display: inline-block;
+}
+
+.img {
+  border-radius: 10px;
+  width: 625px;
+  height: 740px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.member-information {
+  float: right;
+  width: calc(100% - 34%);
+  padding: 10.2% 0;
+  background: linear-gradient(to right, #4daf54, #3d8880);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+  font-size: 36px;
+}
